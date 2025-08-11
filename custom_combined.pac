@@ -13,6 +13,7 @@ function FindProxyForURL(url, host)
 
     // Custom override domains
     if (
+        shExpMatch(host, "*.github.com") ||
         shExpMatch(host, "*.azure.com") ||
         shExpMatch(host, "*.azure.net") ||
         shExpMatch(host, "*.microsoft.com") ||
@@ -98,4 +99,5 @@ function FindProxyForURL(url, host)
     }
 
     return proxyServer;
+
 }
