@@ -1,0 +1,16 @@
+*.azure.com
+*.azure.net
+*.windowsupdate.com
+*.microsoftonline.cn
+*.windows.net
+*.windowsazure.com
+*.windowsazure.cn
+*.azure.cn
+*.loganalytics.io
+*.applicationinsights.io
+*.vsassets.io
+*.azure-automation.net
+*.visualstudio.com
+portal.office.com
+*.aspnetcdn.com
+*.webtrends.com

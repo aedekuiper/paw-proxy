@@ -1,0 +1,5 @@
+*.microsoft.com
+*.microsoftonline.com
+*.sharepointonline.com
+*.msecnd.net
+*.msocdn.com
