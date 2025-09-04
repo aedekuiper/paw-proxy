@@ -37,7 +37,8 @@ function FindProxyForURL(url, host)
         shExpMatch(host, "*.msocdn.com") ||
         shExpMatch(host, "*.webtrends.com") ||
         shExpMatch(host, "amsterdamumc.secretservercloud.eu") ||
-        shExpMatch(host, "*.surfconext.nl")
+        shExpMatch(host, "*.surfconext.nl") ||
+        shExpMatch(host, "mijnwerkplek.amsterdamumc.nl")
     ) {
         return "DIRECT";
     }
